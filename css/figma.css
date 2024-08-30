@@ -1,0 +1,162 @@
+@import url("./global.css");
+
+.block {
+  margin: 50px;
+  width: 1450px;
+  height: 2076px;
+  background-image: url("../images/16.png");
+  padding-top: 193px;
+  background-repeat: no-repeat;
+  padding-left: 64px;
+}
+.block-universe {
+  width: 919px;
+  height: 526px;
+  padding: 40px 56px 40px 56px;
+  gap: 8px;
+  background: linear-gradient(
+    124.42deg,
+    rgba(0, 0, 0, 0.36) 5.12%,
+    rgba(0, 0, 0, 0.0675) 102.99%
+  );
+}
+
+.block-universe > h1 {
+  padding-top: 40px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 96px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.block-universe span {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 96px;
+  color: #63e1e1;
+}
+
+.block-universe > p {
+  color: #ffffff;
+
+  padding-top: 40px;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 35.52px;
+  padding-bottom: 40px;
+}
+.block-universe > button {
+  width: 182px;
+  height: 66px;
+  background-color: #1cd4d2;
+  border: 2px solid #000;
+  border-radius: 36px;
+  border: none;
+  color: #000;
+  padding: 24px 48px;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+
+.block-universe button:hover {
+  box-shadow: 0 0 30px rgba(0, 255, 255, 1);
+}
+
+.card {
+  margin-top: 72px;
+  display: flex;
+  gap: 50px;
+  width: 1312px;
+  height: 171px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  border-radius: 32px;
+}
+
+.card__first > h2 {
+  padding-top: 10px;
+  padding-left: 56px;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32.78px;
+  color: #ffffff;
+}
+
+.card__first > p {
+  padding-top: 8px;
+
+  padding-left: 56px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.59px;
+  color: #ffffff;
+}
+.card__first--img {
+  padding-top: 24px;
+}
+
+.card__two > h2 {
+  padding-top: 10px;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32.78px;
+  color: #ffffff;
+}
+
+.card__two > p {
+  padding-top: 8px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.59px;
+  color: #fff;
+}
+.card__two--img {
+  padding-top: 24px;
+}
+
+.card__three > h2 {
+  padding-top: 10px;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32.78px;
+  color: #fff;
+}
+
+.card__three > p {
+  padding-top: 8px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.59px;
+  color: #fff;
+}
+.card__three--img {
+  padding-top: 24px;
+}
+.card__four > h2 {
+  padding-top: 10px;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32.78px;
+  color: #fff;
+}
+
+.card__four > p {
+  padding-top: 8px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.59px;
+  color: #fff;
+}
+
+.card__four--img {
+  padding-top: 24px;
+}
+
+.body-title {
+  padding-left: 45px;
+}

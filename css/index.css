@@ -1,0 +1,56 @@
+@import url("./global.css");
+
+.header {
+  margin-top: 43px;
+  margin-bottom: 100px;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.header__center > img{
+  width: 100px;
+  transition: all 0.9s;
+}
+.header__center > img:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 96px;
+  color: #ffffff;
+}
+
+.header__desc {
+  width: 847px;
+  padding: 20px;
+  border: 1px solid #9747ff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 96px;
+}
+.header-left > h2 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 96px;
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+  color: white;
+  color: #63e1e1;
+}
+
+.next {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
